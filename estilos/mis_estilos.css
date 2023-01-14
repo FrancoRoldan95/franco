@@ -1,0 +1,30 @@
+p {
+    color: yellowgreen;
+    width: 250px;
+   } 
+   /** comentario dentro de CSS
+   */
+h1 { font-weight:bold ;
+    color:brown;
+    border: 8px solid grey;
+    padding: 50px;
+    margin: 30px;
+}
+
+section {
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    border: 15px solid green;
+    padding: 20px 100px 15px 100px;
+    margin: 20px 100px 15px 100px;
+  }
+.prueba2
+        {
+            color: lightblue;
+            border: 9px solid purple;
+        }
+  #prueba 
+  {
+    color: blueviolet;
+    border: 9px solid purple;
+  }
