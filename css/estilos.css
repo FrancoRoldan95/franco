@@ -1,9 +1,14 @@
+body {
+    background-color: aquamarine;
+}
+
+/**
 p {
     color: yellowgreen;
     width: 250px;
    } 
-   /** comentario dentro de CSS
-   */
+/* comentario dentro de CSS
+   
 h1 { font-weight:bold ;
     color:brown;
     border: 8px solid grey;
@@ -27,4 +32,4 @@ section {
   {
     color: blueviolet;
     border: 9px solid purple;
-  }
+  }*/
