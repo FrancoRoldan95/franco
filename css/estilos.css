@@ -1,7 +1,14 @@
 body {
     background-color: aquamarine;
+    color: gray;
 }
-
+.prueba {
+  border: 2px solid white;
+  padding: 10px;
+}
+#demo {
+  color: green;
+}
 /**
 p {
     color: yellowgreen;

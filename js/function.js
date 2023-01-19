@@ -1,10 +1,34 @@
+/**
+document.getElementById('boton').onclick = function () {
+    
+    console.log ("capturamos el evento click")
+    document.getElementById("demo").innerHTML = "estamos probando nuestro primer evento en JS"
+}
 
+document.addEventListener('click', function () {
+    console.log ("Hola mundo desde EventListener!")
+    document.getElementById("demo").innerHTML = "estamos probando nuestro primer evento en JS";
+});
+*/
 
+document.getElementById('boton').addEventListener('click', function () {
+    console.log ("Hola mundo desde EventListener!")
+    document.getElementById("demo").innerHTML = "estamos probando nuestro primer evento en JS";
+});
 
-console.log ("Hola Mundo!!");
+document.getElementById('boton-color').addEventListener('click', function () {
+    document.body.style.backgroundColor = '#ff2233';
+});
 
-let n1= 3;
-let n2= 5;
-let res = n1+n2;
+document.getElementById('boton-default').addEventListener('click', function () {
+    document.body.style.backgroundColor = 'aquamarine';
+});
 
-console.log("La suma de n1 y n2 es: "+ res);
+document.getElementById('boton-ocultar').addEventListener('click', function () {
+    document.getElementById('demo').style.display = 'none';
+});
+
+const collection = document.getElementsByClassName("prueba");
+    for (let i = 0; i < collection.length; i++) {
+      collection[i].style.backgroundColor = "purple";
+    }

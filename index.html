@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probando eventos con JavaScript</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     
-    <script src="js/function.js"></script>
+    <h3>A ver como queda esto</h3>
+    <p id="demo">Estamos aprendiendo JavaScript.</p>
 
+    <button type="button" id="boton">Click Me!</button>
+    <button type="button" id="boton-color">Cambia el color de fondo!</button>
+    <button type="button" id="boton-default">Reestablecer color de fondo!</button>
+    <button type="button" id="boton-ocultar">Ocultar el texto</button>    
 
+    <p class="prueba">Hola :)</p>
+    <p class="prueba">Adios :(</p>
+    <script src="js/function.js"></script> 
+
+    <script src="js/function.js">
+      const collection = document.getElementsByClassName("prueba");
+    for (let i = 0; i < collection.length; i++) {
+      collection[i].style.backgroundColor = "purple";
+    }
+    </script>
 </body>
 </html> 
